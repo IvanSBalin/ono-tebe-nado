@@ -329,12 +329,12 @@
 }
 
 .footer__menu-list-item {
-    text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     color: #000;
+    text-align: center;
     list-style: none;
 }
 
