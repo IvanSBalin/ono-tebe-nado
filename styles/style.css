@@ -2,8 +2,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1340px;
-    margin: 95px 50px 92px;
+    width: 100%;
+    margin: 95px 50px 93px;
 }
 
 .header__menu {
@@ -40,22 +40,26 @@
 
 .header__logo {
     display: flex;
-    width: 34%;
+    width: 400px;
     justify-content: left;
+    padding-left: 15px;
 }
 
 .header__logo-image {
-    margin-left: 65px;
+    margin-left: 5px;
     width: 138px;
 }
 
 .address {
+    font-style: normal;
     font-size: 18px;
     line-height: 1.35;
-    width: 240px;
+    width: 310px;
+    padding-right: 55px;
     padding-top: 5px;
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
 }
 
 .header__address {
@@ -72,7 +76,7 @@
 /* Enterence section */
 .cover {
     position: relative;
-    width: 1440px;
+    width: 100%;
     min-height: 757px;
     background-image: url("../images/cover.jpg");
     background-size: cover;
@@ -97,7 +101,7 @@
     line-height: 123px;
     text-transform: uppercase;
     color: #FFF;
-    width: 1340px;
+    width: 93%;
     margin: 165px 50px 120px;
     display: flex;
     flex-direction: column;
@@ -133,7 +137,6 @@
     color: #FFF;
     padding-right: 50px;
     justify-content: right;
-    inset: 655px 421px;
     width: 100%;
     display: flex;
     gap: 82px;
@@ -166,7 +169,7 @@
 
 /* Lots section */
 .lots {
-    margin-bottom: 167px;
+    margin-bottom: 165px;
 }
 
 .lots__heading {
@@ -190,19 +193,16 @@
     justify-items: center;
 }
 
-.lots__card-list-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .card-link {
     font-style: normal;
-    line-height: 1.2;
+    text-decoration: none;
     color: #FFF;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: relative;
     background-size: cover;
     z-index: 0;
@@ -234,7 +234,8 @@
 .card__text {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 49px;
+    line-height: 1.18;
+    margin-bottom: 51px;
     padding:  0 40px;
 }
 
@@ -304,7 +305,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    margin: 0 50px;
+    margin: 0 50px 90px;
     padding-top: 3px;
 }
 
