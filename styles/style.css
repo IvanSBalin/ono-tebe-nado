@@ -3,13 +3,14 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 95px 50px 93px;
+    margin: 95px 0 93px;
 }
 
 .header__menu {
     display: flex;
-    width: 32%;
     align-items: center;
+    width: 34%;
+    padding-left: 50px;
 }
 
 .header__links-list {
@@ -40,13 +41,12 @@
 
 .header__logo {
     display: flex;
-    width: 400px;
     justify-content: left;
-    padding-left: 15px;
+    width: 33%;
+    padding-left: 162px;
 }
 
 .header__logo-image {
-    margin-left: 5px;
     width: 138px;
 }
 
@@ -54,12 +54,14 @@
     font-style: normal;
     font-size: 18px;
     line-height: 1.35;
-    width: 310px;
-    padding-right: 55px;
+    width: 33%;
+    padding-left: 185px;
+    padding-right: 50px;
     padding-top: 5px;
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    align-items: start;
+    justify-content: start;
 }
 
 .header__address {
@@ -236,7 +238,7 @@
     font-weight: 400;
     line-height: 1.18;
     margin-bottom: 51px;
-    padding:  0 40px;
+    padding: 0 40px;
 }
 
 .lots__look-more-link {
@@ -296,21 +298,25 @@
     font-weight: 400;
     line-height: 1.14;
     color: #000;
-    padding-top: 30px;
+    padding-top: 31px;
     padding-left: 9px;
 }
 
 /* Footer section */
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     justify-content: space-between;
-    margin: 0 50px 90px;
-    padding-top: 3px;
+    margin-bottom: 90px;
+    padding: 3px 0px 0;
+}
+
+.footer__address__padding {
+    padding: 5px 150px 0 50px;
 }
 
 .footer__menu {
-    margin-top: 7px;
+    width: 33%;
+    padding-top: 7px;
 }
 
 .footer__menu-list {
@@ -326,6 +332,7 @@
     color: #000;
     text-align: center;
     list-style: none;
+    align-items: center;
 }
 
 .footer__menu-link {
@@ -339,9 +346,11 @@
 
 .footer__social-list {
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    width: 33%;
     gap: 50px;
-    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 135px;
 }
 
 .footer__social-list-item {
